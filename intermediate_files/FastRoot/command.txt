@@ -1,0 +1,1 @@
+FastRoot.py -i /home/a1moshir/MERS_OUT/output_files/unrooted.tre -m MV

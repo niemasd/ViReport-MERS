@@ -1,0 +1,720 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    comet-ln2.sdsc.edu (AVX2, FMA3, 62 GB RAM)
+Command: iqtree -m MFP -nt AUTO -s /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln
+Seed:    245316 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Mar  6 10:56:02 2020
+Kernel:  AVX+FMA - auto-detect threads (24 CPU cores detected)
+
+Reading alignment file /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+WARNING: 885 sites contain only gaps or ambiguous characters.
+Alignment has 274 sequences with 31015 columns, 2429 distinct patterns
+694 parsimony-informative, 875 singleton sites, 29446 constant sites
+                                                          Gap/Ambiguity  Composition  p-value
+   1  Jeddah_1_KF917527_camel_2013_11_08                          3.75%    passed     99.34%
+   2  Jeddah_1_KF958702_human_2013_11_05                          3.75%    passed     99.34%
+   3  Riyadh_3_2013_KF600613_human_2013_02_05                     3.07%    passed     99.93%
+   4  Riyadh_4_2013_KJ156952_human_2013_03_01                     3.10%    passed     99.82%
+   5  Riyadh_5_2013_KJ156944_human_2013_07_02                     3.10%    passed     99.94%
+   6  Taif_1_2013_KJ156949_human_2013_06_12                       3.10%    passed     99.80%
+   7  Taif_3_2013_KJ156938_human_2013_06_13                      39.89%    passed     52.84%
+   8  Wadi_Ad_Dawasir_1_2013_KJ156881_human_2013_06_12            3.10%    passed     99.97%
+   9  D1164_1_14_KX108937_camel_2014_06_02                        2.96%    passed     99.99%
+  10  UAE_D1164_10_2014_KP719928_camel_2014_06                    4.69%    passed     99.92%
+  11  UAE_D1164_11_2014_KP719929_camel_2014_06                    4.70%    passed     99.95%
+  12  UAE_D1164_14_2014_KP719930_camel_2014_06                    4.69%    passed     99.92%
+  13  UAE_D1164_9_2014_KP719927_camel_2014_06                     4.69%    passed     99.91%
+  14  AbuDhabi_Gayathi_UAE_2_2014_KP209310_human_2014_03_07       2.88%    passed     99.93%
+  15  AbuDhabi_UAE_16_2014_KP209308_human_2014_04_10              2.88%    passed     99.90%
+  16  AbuDhabi_UAE_18_2014_KP209307_human_2014_04_10              2.88%    passed     99.93%
+  17  AbuDhabi_UAE_26_2014_KP209313_human_2014_04_13              2.88%    passed     99.93%
+  18  AbuDhabi_UAE_30_2014_KP209309_human_2014_04_19              2.88%    passed     99.94%
+  19  AbuDhabi_UAE_33_2014_KP209311_human_2014_04_17              2.88%    passed     99.94%
+  20  AbuDhabi_UAE_8_2014_KP209306_human_2014_04_07               2.88%    passed     99.93%
+  21  AbuDhabi_UAE_9_2013_KP209312_human_2013_11_15               2.88%    passed     99.95%
+  22  Al_Hasa_11_2013_KF600629_human_2013_05_03                  12.17%    passed     86.48%
+  23  Al_Hasa_12_2013_KF600627_human_2013_05_07                   3.03%    passed     99.88%
+  24  Al_Hasa_14_2013_KF600615_human_2013_05_08                  27.01%    passed     30.00%
+  25  Al_Hasa_15_2013_KF600645_human_2013_05_11                   3.05%    passed     99.83%
+  26  Al_Hasa_16_2013_KF600644_human_2013_05_12                   3.02%    passed     99.87%
+  27  Al_Hasa_17_2013_KF600647_human_2013_05_15                   2.90%    passed     99.81%
+  28  Al_Hasa_18_2013_KF600651_human_2013_05_23                   2.93%    passed     99.82%
+  29  Al_Hasa_19_2013_KF600632_human_2013_05_23                   2.92%    passed     99.84%
+  30  Al_Hasa_1_2013_KF186567_human_2013_05_09                    2.90%    passed     99.87%
+  31  Al_Hasa_21_2013_KF600634_human_2013_05_30                   3.07%    passed     99.91%
+  32  Al_Hasa_25_2013_KJ156866_human_2013_05_02                   3.10%    passed     99.87%
+  33  Al_Hasa_26_2013_KJ156882_human_2013_06_18                   3.71%    passed     99.25%
+  34  Al_Hasa_27_2013_KJ156943_human_2013_06_19                   8.51%    passed     88.36%
+  35  Al_Hasa_2_2013_KF186566_human_2013_04_21                    2.91%    passed     99.88%
+  36  Al_Hasa_3_2013_KF186565_human_2013_04_22                    3.05%    passed     99.87%
+  37  Al_Hasa_4_2013_KF186564_human_2013_05_01                    3.01%    passed     99.83%
+  38  Al_Hasa_7_2013_KF600623_human_2013_05_01                   10.08%    passed     90.23%
+  39  Al_Hasa_8_2013_KF600618_human_2013_05_01                   28.33%    passed     98.01%
+  40  Buraidah_1_2013_KF600630_human_2013_05_13                   3.01%    passed     99.78%
+  41  Camel_Egypt_NRCE_HKU270__camel_2013_12_30                   3.10%    passed     99.90%
+  42  Camel_Egypt_NRCE_HKU271__camel_2013_12_30                   3.10%    passed     99.88%
+  43  D1157_15_KX108944_camel_2015_05_12                          2.95%    passed     99.91%
+  44  D252_15_KX108939_camel_2015_01_30                           2.95%    passed     99.99%
+  45  D2597_2_14_KX108938_camel_2014_12_13                        2.95%    passed    100.00%
+  46  D374_15_KX108940_camel_2015_02_12                           2.95%    passed    100.00%
+  47  D383_15_KX108941_camel_2015_02_14                           2.95%    passed    100.00%
+  48  D389_15_KX108942_camel_2015_02_15                           2.95%    passed    100.00%
+  49  D998_15_KX108943_camel_2015_04_23                           2.99%    passed     99.97%
+  50  Egypt_NRCE_NC163_2014_KU740200_camel_2014_12_17             3.44%    passed     99.33%
+  51  EMC_2012_JX869059_human_2012_06_13                          2.89%    passed     98.66%
+  52  England_1_2012_KC164505_human_2012_09_11                    2.91%    passed     99.97%
+  53  England_2_2013_KM015348_human_2013_02_10                    3.14%    passed     99.83%
+  54  England_3_2013_KM210278_human_2013_02_10                    3.16%    passed     99.84%
+  55  England_4_2013_KM210277_human_2013_02_13                    3.18%    passed     99.89%
+  56  Florida_USA_2_SaudiArabia_2014_KJ829365_human_2014_05_10    2.88%    passed     99.98%
+  57  Germany3_UAE_Dubai_Abu_Dhabi__human_2015_03_11              4.99%    passed     97.42%
+  58  Hafr_Al_Batin_1_2013_KF600628_human_2013_06_04              2.94%    passed     99.93%
+  59  Hafr_Al_Batin_2_2013_KJ156910_human_2013_08_05              3.10%    passed     99.76%
+  60  Hafr_Al_Batin_6_2013_KJ156874_human_2013_08_28              3.10%    passed     99.75%
+  61  Indiana_USA_1_SaudiArabia_2014_KJ813439_human_2014_04_30    2.88%    passed     99.91%
+  62  Jeddah_KFH_285TA__human_2014_06_03                         36.48%    passed     25.72%
+  63  Jeddah_KFH_605TD__human_2014_06_09                         38.70%    passed     13.13%
+  64  Jeddah_KFH_668TD__human_2014_06_09                         32.47%    passed     28.58%
+  65  Jeddah_KFH_899NF__human_2014_06_16                          3.51%    passed     99.66%
+  66  Jeddah_KFH_949NSG1__human_2014_06_18                        3.10%    passed     99.94%
+  67  Jeddah_KSA_C20860_2015_KT806055_human_2015_02_10            2.96%    passed     99.97%
+  68  Jeddah_401_2014_KT368827_camel_2014_09                      2.91%    passed     99.93%
+  69  Jeddah_D100_2014_KT368828_camel_2014_12                     2.89%    passed     99.95%
+  70  Jeddah_D33b_2014_KT368829_camel_2014_12                     2.89%    passed     99.87%
+  71  Jeddah_D34_2014_KT368830_camel_2014_12                      2.89%    passed     99.87%
+  72  Jeddah_D35_2014_KT368831_camel_2014_12                      2.89%    passed     99.93%
+  73  Jeddah_D36_2014_KT368832_camel_2014_12                      2.89%    passed     99.87%
+  74  Jeddah_D88_2014_KT368843_camel_2014_12                      2.89%    passed     99.95%
+  75  Jeddah_D90_2014_KT368844_camel_2014_12                      2.92%    passed     99.93%
+  76  Jeddah_D92_2014_KT368845_camel_2014_12                      2.90%    passed     99.95%
+  77  Jeddah_F13A_2014_KT368824_camel_2014_05                     2.90%    passed     99.99%
+  78  Jeddah_Jd175_2015_KT368866_camel_2015_02                    2.91%    passed     99.94%
+  79  Jeddah_Jd199_2015_KT368867_camel_2015_02                    2.90%    passed     99.93%
+  80  Jeddah_O23b_2014_KT368849_camel_2014_10                     2.90%    passed     99.99%
+  81  Jeddah_O24_2014_KT368850_camel_2014_10                      2.89%    passed     99.99%
+  82  Jeddah_O30_2014_KT368851_camel_2014_10                      2.89%    passed     99.98%
+  83  Jeddah_O47b_2014_KT368852_camel_2014_10                     2.90%    passed     99.95%
+  84  Jeddah_S100_2014_KT368853_camel_2014_09                     2.93%    passed     99.95%
+  85  Jeddah_S73_2014_KT368854_camel_2014_09                      2.89%    passed     99.99%
+  86  Jeddah_S93_2014_KT368855_camel_2014_09                      2.90%    passed     99.99%
+  87  Jeddah_S94_2014_KT368856_camel_2014_09                      2.90%    passed     99.91%
+  88  Jeddah_S99_2014_KT368857_camel_2014_09                      2.89%    passed     99.89%
+  89  Jeddah_C10306_KSA_KM027260_human_2014_04_21                 3.68%    passed     99.72%
+  90  Jeddah_C7149_KSA_KM027255_human_2014_04_05                  3.53%    passed     99.81%
+  91  Jeddah_C7569_KSA_KM027256_human_2014_04_03                  3.54%    passed     99.74%
+  92  Jeddah_C7770_KSA_KM027257_human_2014_04_07                  4.00%    passed     99.36%
+  93  Jeddah_C8826_KSA_KM027258_human_2014_04_12                  3.89%    passed     99.40%
+  94  Jeddah_C9055_KSA_KM027259_human_2014_04_14                  3.54%    passed     99.78%
+  95  KFMC_10_KT121578_human_2014_05_01                           3.97%    passed     99.07%
+  96  KFMC_1_KT121580_human_2014_04_28                            3.92%    passed     99.29%
+  97  KFMC_2_KT121577_human_2014_05_11                            3.61%    passed     99.77%
+  98  KFMC_3_KT121573_human_2014_05_09                            3.61%    passed     99.79%
+  99  KFMC_4_KT121575_human_2014_05_12                            3.61%    passed     99.79%
+ 100  KFMC_5_KT121572_human_2014_05_12                            3.61%    passed     99.79%
+ 101  KFMC_6_KT121576_human_2014_05_18                            3.61%    passed     99.80%
+ 102  KFMC_7_KT121581_human_2014_05_03                            4.08%    passed     99.41%
+ 103  KFMC_8_KT121579_human_2014_04_30                            4.08%    passed     99.47%
+ 104  KFMC_9_KT121574_human_2014_05_07                            3.61%    passed     99.81%
+ 105  KFU_HKU13_KJ650295_camel_2013_12_30                         2.95%    passed     99.93%
+ 106  KFU_HKU19Dam_KJ650296_camel_2013_12_30                      2.95%    passed     99.92%
+ 107  KFU_HKU1_KJ650297_camel_2013_11_30                          2.93%    passed     99.93%
+ 108  Khobar_KSA_6736_2015_KT806048_human_2015_02_07              2.96%    passed     99.99%
+ 109  KSA_363_KJ713298_camel_2013_11                              3.00%    passed     99.91%
+ 110  KSA_376_KJ713299_camel_2013_11                              2.90%    passed    100.00%
+ 111  KSA_378_KJ713296_camel_2013_11                              2.91%    passed     99.99%
+ 112  KSA_503_KJ713297_camel_2013_11                              2.91%    passed    100.00%
+ 113  KSA_505_KJ713295_camel_2013_11                              2.91%    passed     99.98%
+ 114  Madinah_3b_2013_KJ156916_human_2013_09_11                   9.82%    passed     91.41%
+ 115  Makkah_C9355_KSA_Makkah_KM027261_human_2014_04_15           3.89%    passed     99.58%
+ 116  Munich_AbuDhabi_2013_KF192507_human_2013_03_22              2.88%    passed     99.74%
+ 117  NRCE_HKU205_KJ477102_camel_2013_11_15                       3.57%    passed     99.19%
+ 118  Oman_2285_2013_KT156560_human_2013_10_28                    2.88%    passed     99.94%
+ 119  Oman_2874_2013_KT156561_human_2013_12_28                    2.88%    passed     99.88%
+ 120  Qatar3_KF961221_human_2013_10_13                            3.00%    passed     99.97%
+ 121  Qatar4_KF961222_human_2013_10_17                            3.00%    passed     99.93%
+ 122  Qatar_2_2014_KJ650098_camel_2014_02_16                      2.90%    passed     99.99%
+ 123  Riyadh_KKUH_104__human_2014_04_25                           3.10%    passed     99.97%
+ 124  Riyadh_KKUH_105__human_2014_04_25                          32.47%    passed     26.49%
+ 125  Riyadh_KKUH_291__human_2014_05_06                           3.35%    passed     99.76%
+ 126  Riyadh_KKUH_368__human_2014_05_13                           9.63%    passed     88.85%
+ 127  Riyadh_KKUH_643__human_2014_11_02                           3.10%    passed     99.92%
+ 128  Riyadh_KKUH_665__human_2014_11_19                           3.50%    passed     99.76%
+ 129  Riyadh_KKUH_90b__human_2014_04_24                           3.31%    passed     99.91%
+ 130  Riyadh_KSA_2049_2015_KR011266_human_2015_01_06              2.96%    passed    100.00%
+ 131  Riyadh_KSA_2343_2015_KR011264_human_2015_01_21              2.96%    passed    100.00%
+ 132  Riyadh_KSA_2345_2015_KR011263_human_2015_01_21              2.96%    passed    100.00%
+ 133  Riyadh_KSA_2466_2015_KR011265_human_2015_01_26              2.97%    passed    100.00%
+ 134  Riyadh_Ry179_2015_KT368875_camel_2015_03                    2.91%    passed    100.00%
+ 135  Riyadh_Ry23N_2014_KT368825_camel_2014_07                    2.89%    passed     99.75%
+ 136  Riyadh_10_2013_KJ156891_human_2013_09_05                    7.84%    passed     92.98%
+ 137  Riyadh_11_2013_KJ156946_human_2013_08_06                    8.75%    passed     90.41%
+ 138  Riyadh_12_2013_KJ156926_human_2013_08_08                    8.33%    passed     89.74%
+ 139  Riyadh_13_2013_KJ156888_human_2013_08_13                    5.92%    passed     94.70%
+ 140  Riyadh_14_2013_KJ156934_human_2013_08_15                    3.10%    passed     99.93%
+ 141  Riyadh_17_2013_KJ156918_human_2013_08_26                    3.40%    passed    100.00%
+ 142  Riyadh_1_2012_KF600612_human_2012_10_23                     3.07%    passed     99.82%
+ 143  Riyadh_2014KSA_158_KSA_2014_KM027281_human_2014_05_20       6.76%    passed     96.32%
+ 144  Riyadh_2014KSA_683_KSA_2014_KM027262_human_2014_04_22       3.61%    passed     99.74%
+ 145  Riyadh_2_2012_KF600652_human_2012_10_30                     3.01%    passed     99.77%
+ 146  Riyadh_7_2013_KJ156937_human_2013_07_15                     5.60%    passed     93.98%
+ 147  Riyadh_8_2013_KJ156880_human_2013_07_17                     4.09%    passed     99.69%
+ 148  Riyadh_9_2013_KJ156869_human_2013_07_17                     3.10%    passed     99.95%
+ 149  Taif_KSA_7032_2014_KU710264_human_2014_11_04                2.96%    passed     99.95%
+ 150  Taif_T157b_2015_KT368890_camel_2015_03                      2.89%    passed     99.96%
+ 151  Taif_T92_2015_KT368887_camel_2015_04                        2.90%    passed     99.96%
+ 152  Taif_2_2013_KJ156896_human_2013_06_12                       9.31%    passed     88.55%
+ 153  UAE_FRA1_1627_2013_BAL_KJ361500_human_2013_04_26            5.64%    passed     99.72%
+ 154  UAE_D1209_2014_KP719933_camel_2014_06                       4.69%    passed     99.92%
+ 155  UAE_D1243_12_2014_KP719932_camel_2014_06                    4.69%    passed     99.98%
+ 156  UAE_D1339_2_2014_KP719931_camel_2014_06                     4.69%    passed     99.99%
+ 157  UAE_D469_14_KU242424_camel_2014_03_04                       2.91%    passed     99.85%
+ 158  UAE_D511_14_KU242423_camel_2014_03_12                       2.91%    passed     99.88%
+ 159  Jordan_10_2015_KU233362_human_2015_09_17                    3.26%    passed    100.00%
+ 160  ChinaGD01_KT036372_human_2015_05_28                         3.50%    passed     99.97%
+ 161  D1189_1_15_KX108946_camel_2015_05_18                        2.95%    passed     99.93%
+ 162  D1271_15_KX108945_camel_2015_05_29                          2.95%    passed     99.96%
+ 163  Hufuf_KSA_11002_2015_KT806046_human_2015_05_10              2.97%    passed     99.97%
+ 164  Hufuf_KSA_9158_2015_KT806047_human_2015_03_27               2.99%    passed    100.00%
+ 165  Jeddah_KSA_3RS2702_2015_KU851859_human_2015_07_12           3.03%    passed     99.92%
+ 166  Jeddah_KSA_C20843_2015_KT806044_human_2015_02_09            2.96%    passed     99.98%
+ 167  Jeddah_KSA_C21271_2015_KT806045_human_2015_02_22            2.97%    passed     99.97%
+ 168  Jeddah_D38b_2014_KT368833_camel_2014_12                     2.89%    passed     99.93%
+ 169  Jeddah_D40_2014_KT368834_camel_2014_12                      2.92%    passed     99.97%
+ 170  Jeddah_D42_2014_KT368835_camel_2014_12                      2.89%    passed     99.93%
+ 171  Jeddah_D43b_2014_KT368836_camel_2014_12                     2.89%    passed     99.89%
+ 172  Jeddah_D45_2014_KT368837_camel_2014_12                      2.90%    passed     99.95%
+ 173  Jeddah_D46b_2014_KT368838_camel_2014_12                     2.89%    passed     99.90%
+ 174  Jeddah_D47_2014_KT368839_camel_2014_12                      2.90%    passed     99.95%
+ 175  Jeddah_D48_2014_KT368840_camel_2014_12                      2.90%    passed     99.95%
+ 176  Jeddah_D49_2014_KT368841_camel_2014_12                      2.92%    passed     99.98%
+ 177  Jeddah_D50b_2014_KT368842_camel_2014_12                     2.90%    passed     99.96%
+ 178  Jeddah_Jd1b_2015_KT368858_camel_2015_01                     2.91%    passed     99.93%
+ 179  Jeddah_Jd4_2015_KT368859_camel_2015_01                      2.90%    passed     99.91%
+ 180  Jeddah_Jd6b_2015_KT368860_camel_2015_01                     2.88%    passed     99.80%
+ 181  Jeddah_Jd7_2015_KT368861_camel_2015_01                      2.89%    passed     99.84%
+ 182  Jeddah_Jd85_2015_KT368862_camel_2015_01                     2.89%    passed     99.85%
+ 183  Jeddah_Jd86_2015_KT368863_camel_2015_01                     2.89%    passed     99.85%
+ 184  Jeddah_Jd87_2015_KT368864_camel_2015_01                     2.89%    passed     99.89%
+ 185  Jeddah_Jd90_2015_KT368865_camel_2015_01                     2.92%    passed     99.96%
+ 186  Jeddah_N51_2014_KT368846_camel_2014_11                      2.90%    passed     99.96%
+ 187  Jeddah_N62b_2014_KT368847_camel_2014_11                     2.92%    passed     99.97%
+ 188  Jeddah_N68b_2014_KT368848_camel_2014_11                     2.89%    passed     99.94%
+ 189  Jordan_1_2015_KU233363_human_2015_09_17                     3.07%    passed     99.91%
+ 190  Kharj_KSA_2598_2015_KT806053_human_2015_02_02               2.96%    passed     99.97%
+ 191  Kharj_KSA_2599_2015_KT806052_human_2015_02_02               2.97%    passed     99.97%
+ 192  KOR_CNUH_SNU_016_06_2015_KT868865_human_2015_06_11          3.05%    passed     99.98%
+ 193  KOR_CNUH_SNU_023_06_2015_KT868866_human_2015_06_11          3.05%    passed     99.98%
+ 194  KOR_CNUH_SNU_024_06_2015_KT868867_human_2015_06_08          3.06%    passed     99.98%
+ 195  KOR_CNUH_SNU_030_06_2015_KT868868_human_2015_06_08          3.05%    passed     99.98%
+ 196  KOR_CNUH_SNU_031_06_2015_KT868869_human_2015_06_11          3.06%    passed     99.98%
+ 197  KOR_CNUH_SNU_038_06_2015_KT868870_human_2015_06_10          3.07%    passed     99.97%
+ 198  KOR_CNUH_SNU_054_06_2015_KT868871_human_2015_06_09          3.06%    passed     99.97%
+ 199  KOR_CNUH_SNU_082_06_2015_KT868872_human_2015_06_10          3.05%    passed     99.99%
+ 200  KOR_CNUH_SNU_085_06_2015_KT868873_human_2015_06_10          3.05%    passed     99.98%
+ 201  KOR_CNUH_SNU_110_06_2015_KT868874_human_2015_06_11          3.05%    passed     99.97%
+ 202  KOR_CNUH_SNU_122_06_2015_KT868875_human_2015_06_10          3.05%    passed     99.97%
+ 203  KOR_CNUH_SNU_148_06_2015_KT868876_human_2015_06_10          3.05%    passed     99.99%
+ 204  KOR_CNUH_SNU_172_06_2015_KT868877_human_2015_06_22          3.06%    passed     99.98%
+ 205  KOR_KNIH_002_05_2015_KT029139_human_2015_05_20              2.92%    passed     99.93%
+ 206  KOR_Seoul_014_2015_KX034093_human_2015_05_30                4.21%    passed     99.71%
+ 207  KOR_Seoul_050_1_2015_KX034094_human_2015_06_11              2.91%    passed     99.93%
+ 208  KOR_Seoul_066_2015_KX034095_human_2015_06_04                2.89%    passed     99.91%
+ 209  KOR_Seoul_077_2_2015_KX034096_human_2015_06_17              3.01%    passed     99.85%
+ 210  KOR_Seoul_080_3_2015_KX034097_human_2015_06_17              2.89%    passed     99.88%
+ 211  KOR_Seoul_162_1_2015_KX034098_human_2015_06_22              2.93%    passed     99.92%
+ 212  KOR_Seoul_169_2015_KX034099_human_2015_06_26                2.92%    passed     99.89%
+ 213  KOR_Seoul_177_3_2015_KX034100_human_2015_07_03              2.89%    passed     99.91%
+ 214  KOREA_Seoul_014_1_2015_KT374052_human_2015_05_31            3.82%    passed     99.48%
+ 215  KOREA_Seoul_035_1_2015_KT374054_human_2015_06_03            3.82%    passed     99.43%
+ 216  KOREA_Seoul_163_1_2015_KT374051_human_2015_06_19            3.82%    passed     99.45%
+ 217  KOREA_Seoul_168_1_2015_KT374056_human_2015_06_21            3.82%    passed     99.24%
+ 218  Korea_Seoul_SNU1_035_2015_KU308549_human_2015_06_08         2.89%    passed     99.93%
+ 219  Najran_KSA_C20915_2015_KT806054_human_2015_02_13            4.26%    passed     99.95%
+ 220  Riyadh_KSA_16077_2015_KU851863_human_2015_08_27             2.96%    passed     99.94%
+ 221  Riyadh_KSA_16098_2015_KU851864_human_2015_08_24             2.96%    passed     99.96%
+ 222  Riyadh_KSA_16117_2015_KU851862_human_2015_08_24             2.96%    passed     99.98%
+ 223  Riyadh_KSA_16120_2015_KU851861_human_2015_08_24             2.96%    passed     99.99%
+ 224  Riyadh_KSA_16121_2015_KU851860_human_2015_08_24             2.96%    passed     99.94%
+ 225  Riyadh_KSA_2716_2015_KT806051_human_2015_02_05              2.96%    passed     99.89%
+ 226  Riyadh_KSA_3065_2015_KT806050_human_2015_02_12             12.56%    passed     40.05%
+ 227  Riyadh_KSA_3181_2015_KT806049_human_2015_02_15              2.96%    passed     99.96%
+ 228  Riyadh_Ry136_2015_KT368868_camel_2015_03                    2.88%    passed     99.93%
+ 229  Riyadh_Ry137_2015_KT368869_camel_2015_03                    2.91%    passed     99.90%
+ 230  Riyadh_Ry159b_2015_KT368870_camel_2015_03                   2.92%    passed     99.97%
+ 231  Riyadh_Ry162_2015_KT368871_camel_2015_03                    2.89%    passed     99.97%
+ 232  Riyadh_Ry173_2015_KT368872_camel_2015_03                    2.88%    passed     99.90%
+ 233  Riyadh_Ry177_2015_KT368873_camel_2015_03                    2.90%    passed     99.97%
+ 234  Riyadh_Ry178_2015_KT368874_camel_2015_03                    2.88%    passed     99.93%
+ 235  Riyadh_Ry63_2015_KT368876_camel_2015_03                     2.88%    passed     99.94%
+ 236  Riyadh_Ry64_2015_KT368877_camel_2015_03                     2.89%    passed     99.96%
+ 237  Riyadh_Ry79_2015_KT368878_camel_2015_03                     2.90%    passed     99.91%
+ 238  Riyadh_Ry84N_2014_KT368826_camel_2014_07                    2.88%    passed     99.98%
+ 239  Riyadh_Ry86_2015_KT368879_camel_2015_03                     2.93%    passed     99.94%
+ 240  Riyadh_KKUH_0734__human_2015_02_18                          3.60%    passed     99.98%
+ 241  Riyadh_KKUH_0755__human_2015_02_23                         21.81%    passed     80.34%
+ 242  Riyadh_KKUH_0756__human_2015_02_23                          9.51%    passed     85.05%
+ 243  Riyadh_KKUH_0780__human_2015_02_25                          3.12%    passed     99.81%
+ 244  Riyadh_KKUH_0801__human_2015_02_27                         22.53%    passed     74.15%
+ 245  Riyadh_KKUH_0818__human_2015_02_28                         46.64%    passed     30.46%
+ 246  Riyadh_KKUH_0826__human_2015_02_28                          9.89%    passed     82.41%
+ 247  Riyadh_KKUH_0939__human_2015_03_02                         34.81%    passed     73.94%
+ 248  Riyadh_KKUH_0944__human_2015_03_02                          5.36%    passed     97.48%
+ 249  Riyadh_KKUH_1066__human_2015_03_03                          3.38%    passed     99.87%
+ 250  Riyadh_KKUH_1080__human_2015_03_03                          7.54%    passed     99.90%
+ 251  Riyadh_KKUH_1145__human_2015_03_04                          3.38%    passed     99.83%
+ 252  Riyadh_KKUH_1217__human_2015_03_04                         27.76%    passed     78.92%
+ 253  Riyadh_KKUH_1461__human_2015_03_08                         26.09%    passed     42.72%
+ 254  Riyadh_KKUH_1470__human_2015_03_08                          3.60%    passed    100.00%
+ 255  Riyadh_KKUH_1522__human_2015_03_09                         41.24%    passed     68.20%
+ 256  Riyadh_KSA_2959_2015_KT026453_human_2015_02_10              2.91%    passed     99.84%
+ 257  Riyadh_KSA_4050_2015_KT026454_human_2015_03_01              2.88%    passed     99.95%
+ 258  Taif_T150_2015_KT368889_camel_2015_03                       2.92%    passed     99.94%
+ 259  Taif_T16_2015_KT368882_camel_2015_04                        2.89%    passed     99.91%
+ 260  Taif_T22_2015_KT368883_camel_2015_04                        2.88%    passed     99.88%
+ 261  Taif_T3_2015_KT368880_camel_2015_04                         2.88%    passed     99.89%
+ 262  Taif_T68_2015_KT368884_camel_2015_04                        2.91%    passed     99.98%
+ 263  Taif_T7_2015_KT368881_camel_2015_04                         2.91%    passed     99.98%
+ 264  Taif_T89_2015_KT368885_camel_2015_04                        2.89%    passed     99.96%
+ 265  Taif_T91b_2015_KT368886_camel_2015_04                       2.89%    passed     99.96%
+ 266  Taif_T98_2015_KT368888_camel_2015_04                        2.91%    passed     99.98%
+ 267  THA_CU_17_06_2015_KT225476_human_2015_06_17                 3.89%    passed     99.29%
+ 268  Jordan_N3_2012_KC776174_human_2012_04_15                    3.18%    passed     99.31%
+ 269  Al_Hasa_23_2013_KJ156860_human_2013_05_13                  30.10%    passed     85.12%
+ 270  Al_Hasa_28_2013_KJ156887_human_2013_06_22                  30.99%    passed     35.42%
+ 271  Asir_2_2013_KJ156863_human_2013_08_05                      37.21%    passed     60.60%
+ 272  Hafr_Al_Batin_4_2013_KJ156931_human_2013_08_25             49.54%    failed      3.16%
+ 273  Hafr_Al_Batin_5_2013_KJ156951_human_2013_08_25             39.42%    passed     58.32%
+ 274  Riyadh_6_2013_KJ156879_human_2013_07_02                    28.97%    passed     93.19%
+****  TOTAL                                                       5.72%  1 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: Jeddah_1_KF958702_human_2013_11_05 is identical to Jeddah_1_KF917527_camel_2013_11_08 but kept for subsequent analysis
+NOTE: AbuDhabi_UAE_33_2014_KP209311_human_2014_04_17 is identical to AbuDhabi_UAE_30_2014_KP209309_human_2014_04_19 but kept for subsequent analysis
+NOTE: Jeddah_D36_2014_KT368832_camel_2014_12 is identical to Jeddah_D33b_2014_KT368829_camel_2014_12 but kept for subsequent analysis
+NOTE: KFMC_4_KT121575_human_2014_05_12 is identical to KFMC_3_KT121573_human_2014_05_09 but kept for subsequent analysis
+NOTE: Riyadh_KSA_2343_2015_KR011264_human_2015_01_21 is identical to Riyadh_KSA_2049_2015_KR011266_human_2015_01_06 but kept for subsequent analysis
+NOTE: Jeddah_D47_2014_KT368839_camel_2014_12 is identical to Jeddah_D45_2014_KT368837_camel_2014_12 but kept for subsequent analysis
+NOTE: Jeddah_Jd86_2015_KT368863_camel_2015_01 is identical to Jeddah_Jd85_2015_KT368862_camel_2015_01 but kept for subsequent analysis
+NOTE: KOR_CNUH_SNU_023_06_2015_KT868866_human_2015_06_11 is identical to KOR_CNUH_SNU_016_06_2015_KT868865_human_2015_06_11 but kept for subsequent analysis
+NOTE: KOR_CNUH_SNU_148_06_2015_KT868876_human_2015_06_10 is identical to KOR_CNUH_SNU_082_06_2015_KT868872_human_2015_06_10 but kept for subsequent analysis
+NOTE: Taif_T91b_2015_KT368886_camel_2015_04 is identical to Taif_T89_2015_KT368885_camel_2015_04 but kept for subsequent analysis
+NOTE: 4 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: KFMC_5_KT121572_human_2014_05_12 (identical to KFMC_3_KT121573_human_2014_05_09) is ignored but added at the end
+NOTE: Riyadh_KSA_2345_2015_KR011263_human_2015_01_21 (identical to Riyadh_KSA_2049_2015_KR011266_human_2015_01_06) is ignored but added at the end
+NOTE: KOR_CNUH_SNU_030_06_2015_KT868868_human_2015_06_08 (identical to KOR_CNUH_SNU_016_06_2015_KT868865_human_2015_06_11) is ignored but added at the end
+NOTE: KOR_CNUH_SNU_085_06_2015_KT868873_human_2015_06_10 (identical to KOR_CNUH_SNU_016_06_2015_KT868865_human_2015_06_11) is ignored but added at the end
+
+For your convenience alignment with unique sequences printed to /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln.uniqueseq.phy
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.083 seconds
+NOTE: ModelFinder requires 213 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 31015) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+52 trees examined
+Threads: 1 / Time: 24.119 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -135050
+Threads: 2 / Time: 18.739 sec / Speedup: 1.287 / Efficiency: 64% / LogL: -135050
+Threads: 3 / Time: 14.362 sec / Speedup: 1.679 / Efficiency: 56% / LogL: -135050
+Threads: 4 / Time: 11.109 sec / Speedup: 2.171 / Efficiency: 54% / LogL: -135050
+Threads: 5 / Time: 10.990 sec / Speedup: 2.195 / Efficiency: 44% / LogL: -135050
+BEST NUMBER OF THREADS: 4
+
+  1  JC            62581.337    537 126236.674   126255.633   130716.450
+  2  JC+I          61752.908    538 124581.815   124600.845   129069.933
+  3  JC+G4         61934.036    538 124944.073   124963.103   129432.190
+  4  JC+I+G4       61714.481    539 124506.963   124526.065   129003.423
+  5  JC+R2         61579.950    539 124237.899   124257.001   128734.359
+  6  JC+R3         61577.211    541 124236.422   124255.667   128749.566
+ 14  F81+F         61827.281    540 124734.562   124753.735   129239.365
+ 15  F81+F+I       61019.061    541 123120.122   123139.367   127633.266
+ 16  F81+F+G4      61188.000    541 123458.001   123477.246   127971.145
+ 17  F81+F+I+G4    60962.154    542 123008.309   123027.625   127529.795
+ 18  F81+F+R2      60852.857    542 122789.713   122809.030   127311.200
+ 19  F81+F+R3      60850.603    544 122789.206   122808.666   127327.377
+ 27  K2P           61764.188    538 124604.377   124623.407   129092.495
+ 28  K2P+I         60933.682    539 122945.364   122964.465   127441.824
+ 29  K2P+G4        61117.966    539 123313.931   123333.033   127810.391
+ 30  K2P+I+G4      60880.315    540 122840.630   122859.803   127345.432
+ 31  K2P+R2        60770.318    540 122620.635   122639.809   127125.438
+ 32  K2P+R3        60768.434    542 122620.868   122640.184   127142.354
+ 40  HKY+F         60994.966    541 123071.931   123091.176   127585.076
+ 41  HKY+F+I       60221.500    542 121526.999   121546.316   126048.486
+ 42  HKY+F+G4      60368.661    542 121821.321   121840.638   126342.808
+ 43  HKY+F+I+G4    60164.074    543 121414.149   121433.537   125943.978
+ 44  HKY+F+R2      60055.002    543 121196.004   121215.393   125725.833
+ 45  HKY+F+R3      60051.656    545 121193.312   121212.845   125739.826
+ 53  TNe           61565.834    539 124209.668   124228.769   128706.128
+ 54  TNe+I         60762.917    540 122605.834   122625.007   127110.636
+ 55  TNe+G4        60921.670    540 122923.341   122942.514   127428.143
+ 56  TNe+I+G4      60704.112    541 122490.225   122509.470   127003.369
+ 57  TNe+R2        60611.690    541 122305.379   122324.624   126818.524
+ 58  TNe+R3        60607.107    543 122300.213   122319.602   126830.042
+ 66  TN+F          60822.843    542 122729.686   122749.002   127251.172
+ 67  TN+F+I        60082.705    543 121251.410   121270.798   125781.238
+ 68  TN+F+G4       60203.694    543 121493.388   121512.776   126023.216
+ 69  TN+F+I+G4     60020.548    544 121129.097   121148.557   125667.268
+ 70  TN+F+R2       59921.712    544 120931.424   120950.884   125469.595
+ 71  TN+F+R3       59914.988    546 120921.977   120941.582   125476.832
+ 79  K3P           61708.019    539 124494.038   124513.139   128990.498
+ 80  K3P+I         60877.347    540 122834.693   122853.866   127339.495
+ 81  K3P+G4        61061.242    540 123202.485   123221.658   127707.287
+ 82  K3P+I+G4      60823.220    541 122728.440   122747.684   127241.584
+ 83  K3P+R2        60714.177    541 122510.354   122529.599   127023.499
+ 84  K3P+R3        60712.198    543 122510.396   122529.785   127040.225
+ 92  K3Pu+F        60932.728    542 122949.457   122968.773   127470.944
+ 93  K3Pu+F+I      60164.940    543 121415.880   121435.268   125945.708
+ 94  K3Pu+F+G4     60309.443    543 121704.886   121724.274   126234.714
+ 95  K3Pu+F+I+G4   60107.633    544 121303.266   121322.726   125841.437
+ 96  K3Pu+F+R2     59997.576    544 121083.152   121102.613   125621.323
+ 97  K3Pu+F+R3     59993.335    546 121078.669   121098.274   125633.525
+105  TPM2+F        60960.369    542 123004.739   123024.055   127526.225
+106  TPM2+F+I      60194.083    543 121474.166   121493.555   126003.995
+107  TPM2+F+G4     60336.829    543 121759.658   121779.047   126289.487
+108  TPM2+F+I+G4   60136.303    544 121360.605   121380.066   125898.777
+109  TPM2+F+R2     60024.906    544 121137.812   121157.272   125675.983
+110  TPM2+F+R3     60020.739    546 121133.478   121153.083   125688.334
+118  TPM2u+F       60960.380    542 123004.761   123024.077   127526.247
+119  TPM2u+F+I     60194.123    543 121474.246   121493.635   126004.075
+120  TPM2u+F+G4    60336.844    543 121759.687   121779.076   126289.516
+121  TPM2u+F+I+G4  60136.239    544 121360.477   121379.938   125898.648
+122  TPM2u+F+R2    60024.905    544 121137.809   121157.270   125675.980
+123  TPM2u+F+R3    60020.724    546 121133.449   121153.054   125688.304
+131  TPM3+F        60994.048    542 123072.096   123091.412   127593.582
+132  TPM3+F+I      60213.568    543 121513.135   121532.524   126042.964
+133  TPM3+F+G4     60366.049    543 121818.098   121837.487   126347.927
+134  TPM3+F+I+G4   60156.775    544 121401.550   121421.010   125939.721
+135  TPM3+F+R2     60047.512    544 121183.024   121202.484   125721.195
+136  TPM3+F+R3     60043.824    546 121179.649   121199.254   125734.504
+144  TPM3u+F       60994.126    542 123072.253   123091.569   127593.740
+145  TPM3u+F+I     60213.612    543 121513.225   121532.613   126043.054
+146  TPM3u+F+G4    60366.092    543 121818.185   121837.573   126348.014
+147  TPM3u+F+I+G4  60156.711    544 121401.421   121420.882   125939.592
+148  TPM3u+F+R2    60047.481    544 121182.963   121202.423   125721.134
+149  TPM3u+F+R3    60043.780    546 121179.559   121199.164   125734.415
+157  TIMe          61511.243    540 124102.485   124121.658   128607.288
+158  TIMe+I        60708.414    541 122498.828   122518.073   127011.973
+159  TIMe+G4       60865.893    541 122813.786   122833.030   127326.930
+160  TIMe+I+G4     60648.323    542 122380.645   122399.962   126902.132
+161  TIMe+R2       60555.271    542 122194.541   122213.858   126716.028
+162  TIMe+R3       60551.487    544 122190.975   122210.435   126729.146
+170  TIM+F         60762.304    543 122610.608   122629.996   127140.437
+171  TIM+F+I       60026.506    544 121141.013   121160.473   125679.184
+172  TIM+F+G4      60144.944    544 121377.889   121397.349   125916.060
+173  TIM+F+I+G4    59964.408    545 121018.816   121038.348   125565.329
+174  TIM+F+R2      59864.698    545 120819.396   120838.929   125365.910
+175  TIM+F+R3      59856.463    547 120806.926   120826.604   125370.124
+183  TIM2e         61542.698    540 124165.397   124184.570   128670.199
+184  TIM2e+I       60746.904    541 122575.808   122595.053   127088.953
+185  TIM2e+G4      60900.040    541 122882.081   122901.326   127395.225
+186  TIM2e+I+G4    60686.754    542 122457.508   122476.824   126978.994
+187  TIM2e+R2      60593.497    542 122270.994   122290.311   126792.481
+188  TIM2e+R3      60589.129    544 122266.258   122285.718   126804.429
+196  TIM2+F        60789.203    543 122664.407   122683.795   127194.236
+197  TIM2+F+I      60056.098    544 121200.196   121219.657   125738.367
+198  TIM2+F+G4     60173.076    544 121434.152   121453.613   125972.323
+199  TIM2+F+I+G4   59994.337    545 121078.673   121098.206   125625.186
+200  TIM2+F+R2     59894.183    545 120878.365   120897.898   125424.879
+201  TIM2+F+R3     59885.453    547 120864.907   120884.584   125428.105
+209  TIM3e         61557.371    540 124194.742   124213.915   128699.544
+210  TIM3e+I       60736.270    541 122554.540   122573.785   127067.684
+211  TIM3e+G4      60905.000    541 122892.001   122911.246   127405.145
+212  TIM3e+I+G4    60676.020    542 122436.040   122455.357   126957.527
+213  TIM3e+R2      60585.360    542 122254.719   122274.035   126776.206
+214  TIM3e+R3      60581.642    544 122251.284   122270.745   126789.455
+222  TIM3+F        60823.525    543 122733.050   122752.439   127262.879
+223  TIM3+F+I      60077.985    544 121243.970   121263.430   125782.141
+224  TIM3+F+G4     60202.647    544 121493.295   121512.755   126031.466
+225  TIM3+F+I+G4   60016.397    545 121122.793   121142.326   125669.306
+226  TIM3+F+R2     59917.587    545 120925.174   120944.707   125471.688
+227  TIM3+F+R3     59909.175    547 120912.351   120932.028   125475.549
+235  TVMe          61689.289    541 124460.577   124479.822   128973.722
+236  TVMe+I        60848.965    542 122781.930   122801.246   127303.416
+237  TVMe+G4       61038.424    542 123160.848   123180.164   127682.334
+238  TVMe+I+G4     60791.807    543 122669.613   122689.002   127199.442
+239  TVMe+R2       60681.565    543 122449.129   122468.518   126978.958
+240  TVMe+R3       60678.937    545 122447.875   122467.407   126994.388
+248  TVM+F         60916.311    544 122920.622   122940.083   127458.793
+249  TVM+F+I       60144.090    545 121378.180   121397.713   125924.693
+250  TVM+F+G4      60290.882    545 121671.764   121691.296   126218.277
+251  TVM+F+I+G4    60085.603    546 121263.207   121282.812   125818.062
+252  TVM+F+R2      59974.182    546 121040.364   121059.969   125595.220
+253  TVM+F+R3      59969.434    548 121034.868   121054.618   125606.408
+261  SYM           61490.596    542 124065.192   124084.509   128586.679
+262  SYM+I         60675.123    543 122436.246   122455.635   126966.075
+263  SYM+G4        60840.021    543 122766.041   122785.430   127295.870
+264  SYM+I+G4      60614.561    544 122317.122   122336.582   126855.293
+265  SYM+R2        60524.214    544 122136.428   122155.888   126674.599
+266  SYM+R3        60520.248    546 122132.496   122152.101   126687.351
+274  GTR+F         60744.812    545 122579.625   122599.157   127126.138
+275  GTR+F+I       60006.908    546 121105.816   121125.421   125660.671
+276  GTR+F+G4      60127.062    546 121346.125   121365.730   125900.980
+277  GTR+F+I+G4    59945.661    547 120985.322   121004.999   125548.519
+278  GTR+F+R2      59845.499    547 120784.998   120804.675   125348.196
+279  GTR+F+R3      59836.440    549 120770.879   120790.702   125350.761
+Akaike Information Criterion:           GTR+F+R3
+Corrected Akaike Information Criterion: GTR+F+R3
+Bayesian Information Criterion:         GTR+F+R2
+Best-fit model: GTR+F+R2 chosen according to BIC
+
+All model information printed to /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln.model.gz
+CPU time for ModelFinder: 753.637 seconds (0h:12m:33s)
+Wall-clock time for ModelFinder: 218.801 seconds (0h:3m:38s)
+
+NOTE: 42 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 24 CPU cores
+Increase to 10 rounds for branch lengths
+35 trees examined
+Threads: 1 / Time: 24.223 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -126015
+Threads: 2 / Time: 12.474 sec / Speedup: 1.942 / Efficiency: 97% / LogL: -126015
+Threads: 3 / Time: 9.017 sec / Speedup: 2.686 / Efficiency: 90% / LogL: -126015
+Threads: 4 / Time: 7.315 sec / Speedup: 3.311 / Efficiency: 83% / LogL: -126015
+Threads: 5 / Time: 6.352 sec / Speedup: 3.814 / Efficiency: 76% / LogL: -126015
+Threads: 6 / Time: 5.824 sec / Speedup: 4.159 / Efficiency: 69% / LogL: -126015
+Threads: 7 / Time: 5.590 sec / Speedup: 4.334 / Efficiency: 62% / LogL: -126015
+Threads: 8 / Time: 6.950 sec / Speedup: 3.486 / Efficiency: 44% / LogL: -126015
+BEST NUMBER OF THREADS: 6
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -61605.062
+2. Current log-likelihood: -60512.024
+3. Current log-likelihood: -60499.705
+4. Current log-likelihood: -60487.122
+5. Current log-likelihood: -60475.092
+6. Current log-likelihood: -60465.775
+7. Current log-likelihood: -60456.523
+8. Current log-likelihood: -60446.777
+9. Current log-likelihood: -60436.678
+10. Current log-likelihood: -60426.147
+11. Current log-likelihood: -60415.164
+12. Current log-likelihood: -60403.708
+13. Current log-likelihood: -60391.715
+14. Current log-likelihood: -60379.175
+15. Current log-likelihood: -60366.042
+16. Current log-likelihood: -60352.285
+17. Current log-likelihood: -60337.866
+18. Current log-likelihood: -60322.787
+19. Current log-likelihood: -60306.908
+20. Current log-likelihood: -60290.183
+21. Current log-likelihood: -60272.828
+22. Current log-likelihood: -60254.726
+23. Current log-likelihood: -60235.809
+24. Current log-likelihood: -60216.122
+25. Current log-likelihood: -60195.649
+26. Current log-likelihood: -60174.420
+27. Current log-likelihood: -60152.605
+28. Current log-likelihood: -60130.258
+29. Current log-likelihood: -60107.387
+30. Current log-likelihood: -60084.503
+31. Current log-likelihood: -60061.776
+32. Current log-likelihood: -60039.668
+33. Current log-likelihood: -60018.843
+34. Current log-likelihood: -60000.138
+35. Current log-likelihood: -59983.793
+36. Current log-likelihood: -59969.825
+37. Current log-likelihood: -59957.944
+38. Current log-likelihood: -59947.786
+39. Current log-likelihood: -59939.051
+40. Current log-likelihood: -59931.001
+41. Current log-likelihood: -59923.081
+42. Current log-likelihood: -59914.935
+43. Current log-likelihood: -59906.562
+44. Current log-likelihood: -59898.081
+45. Current log-likelihood: -59889.629
+46. Current log-likelihood: -59881.347
+47. Current log-likelihood: -59873.499
+48. Current log-likelihood: -59866.341
+49. Current log-likelihood: -59860.126
+50. Current log-likelihood: -59854.994
+51. Current log-likelihood: -59851.023
+52. Current log-likelihood: -59848.092
+53. Current log-likelihood: -59846.085
+54. Current log-likelihood: -59844.735
+55. Current log-likelihood: -59843.887
+56. Current log-likelihood: -59843.368
+57. Current log-likelihood: -59843.043
+58. Current log-likelihood: -59842.853
+59. Current log-likelihood: -59842.730
+Optimal log-likelihood: -59842.655
+Rate parameters:  A-C: 0.50699  A-G: 1.70157  A-T: 0.25107  C-G: 0.32502  C-T: 4.83642  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.202  G: 0.209  T: 0.326
+Site proportion and rates:  (0.982,0.572) (0.018,24.424)
+Parameters optimization took 59 rounds (13.339 sec)
+Computing ML distances based on estimated model parameters... 2.438 sec
+Computing BIONJ tree...
+0.057 seconds
+Log-likelihood of BIONJ tree: -60127.072
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 7.211 second
+Computing log-likelihood of 98 initial trees ... 6.179 seconds
+Current best score: -59816.430
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -59805.582
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -59803.646
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -59797.591
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -59797.513
+Iteration 10 / LogL: -59809.787 / Time: 0h:1m:50s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 18: -59794.485
+Iteration 20 / LogL: -59803.300 / Time: 0h:1m:55s
+Finish initializing candidate tree set (20)
+Current best tree score: -59794.485 / CPU time: 23.387
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -59793.366
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -59793.083
+Iteration 30 / LogL: -59795.025 / Time: 0h:2m:1s (0h:6m:54s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 37: -59792.981
+Iteration 40 / LogL: -59805.367 / Time: 0h:2m:7s (0h:5m:16s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 46: -59792.864
+Iteration 50 / LogL: -59792.975 / Time: 0h:2m:13s (0h:4m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 57: -59792.800
+Iteration 60 / LogL: -59793.043 / Time: 0h:2m:19s (0h:3m:49s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 64: -59790.568
+Iteration 70 / LogL: -59803.642 / Time: 0h:2m:26s (0h:3m:19s left)
+Iteration 80 / LogL: -59799.187 / Time: 0h:2m:32s (0h:2m:42s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 88: -59790.509
+Iteration 90 / LogL: -59816.060 / Time: 0h:2m:39s (0h:2m:55s left)
+Iteration 100 / LogL: -59803.734 / Time: 0h:2m:45s (0h:2m:26s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -59790.408
+Iteration 110 / LogL: -59818.079 / Time: 0h:2m:52s (0h:2m:36s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 120: -59790.331
+Iteration 120 / LogL: -59790.331 / Time: 0h:2m:58s (0h:2m:29s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 121: -59790.309
+Iteration 130 / LogL: -59811.880 / Time: 0h:3m:5s (0h:2m:10s left)
+Iteration 140 / LogL: -59795.010 / Time: 0h:3m:11s (0h:1m:51s left)
+Iteration 150 / LogL: -59792.682 / Time: 0h:3m:17s (0h:1m:34s left)
+Iteration 160 / LogL: -59807.900 / Time: 0h:3m:23s (0h:1m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 164: -59790.182
+Iteration 170 / LogL: -59817.458 / Time: 0h:3m:30s (0h:1m:56s left)
+Iteration 180 / LogL: -59791.234 / Time: 0h:3m:35s (0h:1m:41s left)
+Iteration 190 / LogL: -59796.520 / Time: 0h:3m:42s (0h:1m:27s left)
+Iteration 200 / LogL: -59809.223 / Time: 0h:3m:49s (0h:1m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 208: -59790.130
+Iteration 210 / LogL: -59792.610 / Time: 0h:3m:56s (0h:1m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 213: -59790.073
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 219: -59790.019
+Iteration 220 / LogL: -59798.660 / Time: 0h:4m:3s (0h:1m:50s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 227: -59789.984
+Iteration 230 / LogL: -59844.726 / Time: 0h:4m:11s (0h:1m:46s left)
+Iteration 240 / LogL: -59790.221 / Time: 0h:4m:18s (0h:1m:33s left)
+Iteration 250 / LogL: -59806.089 / Time: 0h:4m:23s (0h:1m:21s left)
+Iteration 260 / LogL: -59789.999 / Time: 0h:4m:31s (0h:1m:10s left)
+Iteration 270 / LogL: -59798.265 / Time: 0h:4m:38s (0h:0m:59s left)
+Iteration 280 / LogL: -59791.674 / Time: 0h:4m:45s (0h:0m:48s left)
+Iteration 290 / LogL: -59802.652 / Time: 0h:4m:51s (0h:0m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 298: -59789.961
+Iteration 300 / LogL: -59892.043 / Time: 0h:4m:58s (0h:1m:37s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 301: -59789.873
+Iteration 310 / LogL: -59797.255 / Time: 0h:5m:5s (0h:1m:29s left)
+Iteration 320 / LogL: -59791.406 / Time: 0h:5m:11s (0h:1m:19s left)
+Iteration 330 / LogL: -59792.133 / Time: 0h:5m:17s (0h:1m:8s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 336: -59789.851
+Iteration 340 / LogL: -59789.949 / Time: 0h:5m:24s (0h:1m:32s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 349: -59789.768
+Iteration 350 / LogL: -59791.555 / Time: 0h:5m:30s (0h:1m:33s left)
+Iteration 360 / LogL: -59794.105 / Time: 0h:5m:37s (0h:1m:23s left)
+Iteration 370 / LogL: -59805.244 / Time: 0h:5m:43s (0h:1m:13s left)
+Iteration 380 / LogL: -59809.320 / Time: 0h:5m:49s (0h:1m:3s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 388: -59789.696
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 389: -59789.659
+Iteration 390 / LogL: -59820.736 / Time: 0h:5m:56s (0h:1m:30s left)
+Iteration 400 / LogL: -59802.355 / Time: 0h:6m:2s (0h:1m:20s left)
+Iteration 410 / LogL: -59792.087 / Time: 0h:6m:8s (0h:1m:11s left)
+BETTER TREE FOUND at iteration 418: -59789.650
+Iteration 420 / LogL: -59794.215 / Time: 0h:6m:14s (0h:1m:27s left)
+Iteration 430 / LogL: -59811.354 / Time: 0h:6m:20s (0h:1m:18s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 435: -59789.631
+Iteration 440 / LogL: -59800.241 / Time: 0h:6m:27s (0h:1m:23s left)
+Iteration 450 / LogL: -59797.517 / Time: 0h:6m:33s (0h:1m:14s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 455: -59789.507
+Iteration 460 / LogL: -59789.530 / Time: 0h:6m:41s (0h:1m:23s left)
+Iteration 470 / LogL: -59818.110 / Time: 0h:6m:47s (0h:1m:13s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 480: -59789.467
+Iteration 480 / LogL: -59789.467 / Time: 0h:6m:54s (0h:1m:26s left)
+Iteration 490 / LogL: -59789.539 / Time: 0h:7m:0s (0h:1m:17s left)
+Iteration 500 / LogL: -59795.138 / Time: 0h:7m:6s (0h:1m:8s left)
+Iteration 510 / LogL: -59835.197 / Time: 0h:7m:13s (0h:0m:59s left)
+Iteration 520 / LogL: -59793.412 / Time: 0h:7m:20s (0h:0m:50s left)
+Iteration 530 / LogL: -59807.494 / Time: 0h:7m:26s (0h:0m:42s left)
+Iteration 540 / LogL: -59798.942 / Time: 0h:7m:33s (0h:0m:33s left)
+Iteration 550 / LogL: -59790.961 / Time: 0h:7m:39s (0h:0m:25s left)
+Iteration 560 / LogL: -59791.770 / Time: 0h:7m:47s (0h:0m:16s left)
+BETTER TREE FOUND at iteration 567: -59789.462
+Iteration 570 / LogL: -59801.377 / Time: 0h:7m:54s (0h:1m:20s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 576: -59789.382
+Iteration 580 / LogL: -59789.397 / Time: 0h:8m:2s (0h:1m:20s left)
+Iteration 590 / LogL: -59805.461 / Time: 0h:8m:10s (0h:1m:11s left)
+Iteration 600 / LogL: -59790.398 / Time: 0h:8m:18s (0h:1m:3s left)
+Iteration 610 / LogL: -59806.730 / Time: 0h:8m:24s (0h:0m:54s left)
+Iteration 620 / LogL: -59796.407 / Time: 0h:8m:31s (0h:0m:46s left)
+Iteration 630 / LogL: -59805.436 / Time: 0h:8m:38s (0h:0m:37s left)
+Iteration 640 / LogL: -59805.930 / Time: 0h:8m:44s (0h:0m:29s left)
+Iteration 650 / LogL: -59792.591 / Time: 0h:8m:50s (0h:0m:21s left)
+Iteration 660 / LogL: -59791.005 / Time: 0h:8m:56s (0h:0m:13s left)
+Iteration 670 / LogL: -59790.372 / Time: 0h:9m:2s (0h:0m:4s left)
+TREE SEARCH COMPLETED AFTER 677 ITERATIONS / Time: 0h:9m:6s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -59789.382
+Optimal log-likelihood: -59789.379
+Rate parameters:  A-C: 0.49250  A-G: 1.66648  A-T: 0.23809  C-G: 0.31205  C-T: 4.80533  G-T: 1.00000
+Base frequencies:  A: 0.262  C: 0.202  G: 0.209  T: 0.326
+Site proportion and rates:  (0.984,0.589) (0.016,25.702)
+Parameters optimization took 1 rounds (0.143 sec)
+BEST SCORE FOUND : -59789.379
+Total tree length: 0.073
+
+Total number of iterations: 677
+CPU time used for tree search: 2661.485 sec (0h:44m:21s)
+Wall-clock time used for tree search: 454.630 sec (0h:7m:34s)
+Total CPU time used: 3010.424 sec (0h:50m:10s)
+Total wall-clock time used: 546.682 sec (0h:9m:6s)
+
+Analysis results written to: 
+  IQ-TREE report:                /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln.iqtree
+  Maximum-likelihood tree:       /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln.treefile
+  Likelihood distances:          /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln.mldist
+  Screen log file:               /home/a1moshir/MERS_OUT/output_files/sequences_safe.aln.log
+
+Date and Time: Fri Mar  6 11:08:48 2020

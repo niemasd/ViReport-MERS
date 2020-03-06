@@ -1,0 +1,2 @@
+TreeN93.py -v -i /home/a1moshir/MERS_OUT/output_files/pairwise_distances_phylogeny.csv -o /home/a1moshir/MERS_OUT/intermediate_files/TreeN93/treen93.tre
+TreeN93_cluster.py -v -i /home/a1moshir/MERS_OUT/intermediate_files/TreeN93/treen93.tre -o /home/a1moshir/MERS_OUT/output_files/transmission_clusters.tsv
