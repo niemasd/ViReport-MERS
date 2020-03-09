@@ -1,4 +1,4 @@
-# ViReport v0.0.1 &mdash; 2020-03-06
+# ViReport v0.0.1 &mdash; 2020-03-08
 
 ## Input Dataset
 The analysis was conducted on a dataset containing 274 sequences.
@@ -49,8 +49,8 @@ and the most recent sample date was 2015-09-17.
 Multiple sequence alignment was performed using MAFFT (Katoh & Standley, 2013) in automatic mode.
 There were 31015 positions (16180 invariant) and 165 unique sequences in the multiple sequence alignment.
 Pairwise distances were computed from the multiple sequence alignment using the tn93 tool of HIV-TRACE (Pond et al., 2018).
-The average pairwise sequence distance was 0.0020438096315726533,
-with a standard deviation of 0.0008959792782581416.
+The average pairwise sequence distance was 0.00204,
+with a standard deviation of 0.000896.
 
 
 <figure>
@@ -63,9 +63,9 @@ with a standard deviation of 0.0008959792782581416.
 A maximum-likelihood phylogeny was inferred using IQ-TREE (Nguyen et al., 2015) in ModelFinder Plus mode (Kalyaanamoorthy et al., 2017).
 The inferred phylogeny was MinVar-rooted using FastRoot (Mai et al., 2017).
 Pairwise distances were computed from the phylogeny using TreeSwift (Moshiri, 2020).
-The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.008118329899999999,
-and the average pairwise phylogenetic distance was 0.0028314104874094747,
-with a standard deviation of 0.0014109307953619646.
+The maximum pairwise phylogenetic distance (i.e., tree diameter) was 0.00812,
+and the average pairwise phylogenetic distance was 0.00283,
+with a standard deviation of 0.00141.
 
 
 <figure>
@@ -83,9 +83,9 @@ with a standard deviation of 0.0014109307953619646.
 
 ## Phylogenetic Dating
 The rooted phylogeny was dated using treedater (Volz & Frost, 2017).
-The height of the dated tree was 3.9417811427742464 days,
+The height of the dated tree was 1436.753 days,
 so given that the most recent sample was collected on 2015-09-17,
-the estimated time of the most recent common ancestor (tMRCA) was 2015-09-13.
+the estimated time of the most recent common ancestor (tMRCA) was 2011-10-11.
 
 
 <figure>
@@ -96,11 +96,11 @@ the estimated time of the most recent common ancestor (tMRCA) was 2015-09-13.
 
 ## Transmission Clustering
 Transmission clustering was performed using TreeN93 (Moshiri, 2018) using pairwise phylogenetic distances.
-The total number of singletons (i.e., non-clustered individuals) was 79,
-and the total number of clusters (excluding singletons) was 25.
-The average cluster size (excluding singletons) was 3.8,
-with a standard deviation of 3.0724582991474434,
-and the maximum and minimum cluster sizes were 16 and 2, respectively.
+The total number of singletons (i.e., non-clustered individuals) was 71,
+and the total number of clusters (excluding singletons) was 21.
+The average cluster size (excluding singletons) was 4.905,
+with a standard deviation of 5.309,
+and the maximum and minimum cluster sizes were 26 and 2, respectively.
 
 
 <figure>

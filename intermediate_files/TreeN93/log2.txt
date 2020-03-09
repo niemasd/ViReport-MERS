@@ -1,10 +1,10 @@
 === INPUTS ===
-Input File:  /home/a1moshir/MERS_OUT/intermediate_files/TreeN93/treen93.tre
-Output File: /home/a1moshir/MERS_OUT/output_files/transmission_clusters.tsv
+Input File:  /home/a1moshir/MERS-OUTPUT/intermediate_files/TreeN93/treen93.tre
+Output File: /home/a1moshir/MERS-OUTPUT/output_files/transmission_clusters.tsv
 Mode:        max_non_singleton
 
 === RESULTS ===
 Computing transmission clusters...
-Optimal Threshold: 0.000072
-Number of Non-Singleton Clusters: 25
-Total runtime: 0.010494470596313477 seconds
+Optimal Threshold: 0.000000
+Number of Non-Singleton Clusters: 21
+Total runtime: 0.008445978164672852 seconds

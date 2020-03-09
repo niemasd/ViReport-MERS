@@ -1,1 +1,1 @@
-pdflatex /home/a1moshir/MERS_OUT/report_files/main.tex
+pdflatex /home/a1moshir/MERS-OUTPUT/report_files/main.tex

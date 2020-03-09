@@ -1,7 +1,7 @@
 === INPUTS ===
-Input File:  /home/a1moshir/MERS_OUT/output_files/pairwise_distances_phylogeny.csv
-Output File: /home/a1moshir/MERS_OUT/intermediate_files/TreeN93/treen93.tre
+Input File:  /home/a1moshir/MERS-OUTPUT/output_files/pairwise_distances_phylogeny.csv
+Output File: /home/a1moshir/MERS-OUTPUT/intermediate_files/TreeN93/treen93.tre
 
 === COMPUTE TREEN93 TREE ===
 Number of Individuals: 174
-Total runtime: 0.4450998306274414 seconds
+Total runtime: 0.4103217124938965 seconds

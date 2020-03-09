@@ -1,1 +1,1 @@
-tdcl -t /home/a1moshir/MERS_OUT/output_files/rooted.no_outgroup.tre -s /home/a1moshir/MERS_OUT/intermediate_files/treedater/times_treedater.txt -l 31015 -o /home/a1moshir/MERS_OUT/output_files/dated.tre
+tdcl -t /home/a1moshir/MERS-OUTPUT/output_files/rooted.no_outgroup.tre -s /home/a1moshir/MERS-OUTPUT/intermediate_files/treedater/times_treedater.txt -l 31015 -o /home/a1moshir/MERS-OUTPUT/output_files/dated.tre
